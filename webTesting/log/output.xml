@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.0 on win32)" generated="20230304 09:44:54.834" rpa="false" schemaversion="3">
+<suite id="s1" name="webTesting" source="C:\Users\bruno.dorea.SPREADTEC\Estudos\Github\devTalk-automacao-com-robot-framework\webTesting">
+<suite id="s1-s1" name="Minha-Suite" source="C:\Users\bruno.dorea.SPREADTEC\Estudos\Github\devTalk-automacao-com-robot-framework\webTesting\minha-suite.robot">
+<test id="s1-s1-t1" name="Caso de Teste 01: Pesquisar um produto no site" line="10">
+<kw name="Acessar a página home do site da loja" library="resource">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230304 09:44:55.130" level="INFO">Opening browser 'chrome' to base url 'https://automationexercise.com/products'.</msg>
+<status status="PASS" starttime="20230304 09:44:55.129" endtime="20230304 09:44:59.732"/>
+</kw>
+<status status="PASS" starttime="20230304 09:44:55.129" endtime="20230304 09:44:59.732"/>
+</kw>
+<status status="PASS" starttime="20230304 09:44:55.128" endtime="20230304 09:44:59.733"/>
+</test>
+<doc>Suite Exemplo WebTesting</doc>
+<status status="PASS" starttime="20230304 09:44:54.859" endtime="20230304 09:44:59.734"/>
+</suite>
+<status status="PASS" starttime="20230304 09:44:54.837" endtime="20230304 09:44:59.736"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="webTesting">webTesting</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Minha-Suite">webTesting.Minha-Suite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
