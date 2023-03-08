@@ -1,7 +1,3 @@
-... C:\chromeDriver\chromedriver.exe
-... automationpratice.com/index.php (não funciona)
-... https://automationexercise.com/
-
 *** Settings ***
 Documentation   Suite Exemplo WebTesting
 Resource        resource.robot

@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Variables ***
-${BROWSER}      chrome
+${BROWSER}      edge
 ${URL}          https://automationexercise.com/products
 
 *** Keywords ***
